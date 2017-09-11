@@ -36,7 +36,7 @@ a:hover, a:focus, a:active{
 }
 
 .header {
-    background: url('../img/oregonlighthouse.jpg') no-repeat fixed;
+    background: url('../img/oregonwaves.jpg') no-repeat fixed;
     background-size: cover;
     min-height: 630px;
     max-height: 1000px;
@@ -129,13 +129,12 @@ a:hover, a:focus, a:active{
 }
 
 .headshot{
-    max-height: 350px;
+    max-block-size: 350px;
+    padding-left: 200px;
 }
 
 #about{
-	/* background: url('../img/kathyheadshot.jpg') no-repeat;
-	background-size: cover; */
-	margin-bottom: -3px;
+    margin-bottom: -3px;
 }
 
 .section-padding{
@@ -217,6 +216,13 @@ blockquote {
     color: #62646f;
     font-weight: 600;
     margin: 16px 0 5px;
+}
+
+/* Tech */
+
+.techimg {
+    max-block-size: 100px;
+    padding: 10px;
 }
 
 /* Contact */
