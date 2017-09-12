@@ -28,6 +28,7 @@ table {
 
 a {
     outline: none;
+    text-decoration: navajowhite;
 }
 
 a:hover, a:focus, a:active{
@@ -133,6 +134,12 @@ a:hover, a:focus, a:active{
     padding-left: 200px;
 }
 
+.bottomshot{
+    max-block-size: 400px;
+    margin-top: -55px;
+    margin-left: 65px;
+}
+
 #about{
     margin-bottom: -3px;
 }
@@ -229,7 +236,7 @@ blockquote {
 
 #contact {
     width: 100%;
-    background-color: RGBA(8, 7, 7, 0.92);
+    color: #444;
 }
 
 #contact .btn-primary {
@@ -307,7 +314,7 @@ footer {
 }
 
 .contact-sec p {
-    color: #fff;
+    color: #444;
     font-size: 18px;
     padding: 16px 0px 24px;
 }
@@ -317,7 +324,7 @@ footer {
 }
 
 .contact-sec a {
-    color: #FFF;
+    color: #444;
     background-color: RGBA(174, 142, 142, 0.7);
     display: inline-block;
     padding: 16px 34px;
