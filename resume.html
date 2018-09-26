@@ -1,0 +1,114 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Raleway:500,200,700" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+
+<link href="https://unpkg.com/material-resume@1.0.1/resume.min.css" rel="stylesheet">
+<link rel="stylesheet" href="src/resume.css">
+<script src="https://unpkg.com/material-resume@1.0.1/resume.min.js"></script>
+
+</head><body ng-app="Resume" ng-cloak="">
+    <resume>
+        <resume-heading first-name="Kathleen" last-name="Weisensel" linkedin="kweisensel" github="sleuthy" email="kweisensel@gmail.com" phone="415-680-0956">
+        </resume-heading>
+        <resume-body>
+            <resume-column flex="20">
+                <sidebar-category name="About">
+                    <p>Passionate about crafting clean code to create and maintain accessible, highly usable software. </p>
+                    <p>Driven by collaborative, team-centric environments.</p>
+                    <br>
+                </sidebar-category>
+                <sidebar-category name="Education">
+                    <!-- <category-item title="Nashville Software School" subtitle="Web Developer Certificate (2017"></category-item> -->
+                    <p><i>Web Developer Certificate,</i> 2017
+                    Nashville Software School</p>
+                    <p></p>
+                    <p><i>Master of Library Science,</i> 2004
+                        University at Buffalo
+                    </p>
+                    <p><i>Bachelor of Arts, English and Media Study,</i> 2003
+                        University at Buffalo
+                    </p>
+                    <br>
+                </sidebar-category>
+                <sidebar-category name="Technologies">
+                     <ul class="tech">
+                         <li>HTML5</li>
+                         <li>CSS3</li>
+                         <li>JavaScript</li> 
+                         <li>React</li>
+                         <li>jQuery</li> 
+                         <li>AngularJS</li> 
+                         <li>C#, .NET</li>
+                         <li>mySQL</li>  
+                         <li>Bootstrap</li>
+                         <li>Materialize</li>
+                         <li>Handlebars</li>
+                         <li>Visual Studio</li>  
+                         <li>Git</li>
+                         <li>GitHub</li>
+                         <li>Bitbucket</li>
+                         <li>NPM</li>
+                         <li>Jira</li>
+                    </ul>
+                </sidebar-category>
+                <p></p>
+            </resume-column>
+            <resume-column flex="80">
+                <category name="Software Development Experience">
+                    <category-item title="Developer & Product Analyst" subtitle="Synchronous Health, Inc., Nashville, TN (October 2017 - March 2018)">
+                        <li>Wrote user stories & organized tickets for weekly sprints using Jira</li>
+                        <li>Performed product management duties in weekly development meetings</li>
+                        <li>Ran weekly QA testing for iOS & Android</li>
+                        <li>Created new content with JavaScript and React</li>
+                        <li>Developed cases for user acceptance testing on mobile and web platforms</li>
+                    </category-item>
+                    <category-item title="Apprentice Software Developer" subtitle="Nashville Software School, Nashville, TN (April - September 2017)">
+                        <li>Completed intensive six-month bootcamp emphasizing object-oriented programming & Agile/SCRUM methodology</li>
+                        <li>Created SPA applications using JavaScript, JQuery, CSS3, HTML5, & AngularJS</li>
+                        <li>Utilized solution design with wireframes & ERDs</li>
+                        <li>Wrote & implemented unit tests</li>
+                        <li>Leveraged Razor for creating & editing MVC applications</li>
+                        <li>Created ASP.NET MVC, Web API, & CLI apps in C#/.NET with Microsoft Entity & Identity Frameworks & LINQ</li>
+                        <li>Wrote & executed SQL queries with SQLite & MS SQL Server</li>
+                        <li>Retrieved & managed data from REST APIs</li>
+                        <li>Maintained robust code history & VC with Git & GitHub</li>
+                        <li>Exercised project management best practices via Trello & GitHub Projects</li>
+                        <li>Practiced the Agile workflow with daily stand-ups with technical manager & regular interaction with product owner</li>
+                    </category-item>
+                </category>
+                    <category name="Projects">
+                        <category-item title="EMDR Assistant" subtitle="github.com/sleuthy/EMDR-App">
+                        <li>CRUD app for EMDR psychotherapists which uses animated movements to facilitate bilateral stimulation</li>
+                        <li>Includes session tracking and customizable speed & number of movements</li>
+                        <li>Built with HTML, CSS, JavaScript, AngularJS, Materialize, & Firebase</li>
+                        </category-item>
+                    <category-item title="BierTier" subtitle="github.com/sleuthy/BierTier">
+                        <li>ASP.NET Core MVC web application which provides user with beer recommendations based on favorites</li>
+                        <li>User can save favorites & add beers to a personal wish list</li>
+                        <li>Built with C#, Microsoft Entity & Identity, & Bootstrap</li>
+                        </category-item>
+                    </category>
+                    <category name="Other Professional Experience">
+                    <category-item title="Senior Investigator" subtitle="Green Light Investigations (2008 - present)">
+                        <li>Founded investigative research firm serving attorneys & business professionals</li>
+                        <li>Perform background checks, analyses of financial data, due diligence investigations, & missing persons research</li>
+                        <li>Utilize public records and proprietary sources to create integrative reports</li>
+                    </category-item>
+                    <category-item title="Accessibility Specialist" subtitle="Community College of Aurora, Aurora, CO (2013 - 2015)">
+                        <li>Provided accommodations & academic support for students with disabilities</li>
+                        <li>Coordinated creation of first Microsoft Access database for student data</li>
+                        <li>Created department's first program assessment for tracking student retention</li>
+                        </category-item>
+                </category>
+            </resume-column>
+        </resume-body>
+    </resume>
+</body></html>
